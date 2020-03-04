@@ -9,7 +9,7 @@ export class LoginService {
   constructor(private httpClient: HttpClient) { }
 
   login(uploadData){
-    const endpoint = 'http://52.205.99.171:7777/mfi-branch/v1.0/login';
+    const endpoint = 'http://13.234.13.58:7777/mfi-branch/v1.0/login';
     let headers: HttpHeaders = new HttpHeaders();
     headers = headers.append('Accept', 'application/json');
     return new Promise((resolve, reject) => {
